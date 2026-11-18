@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="archivalPaper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F0E6" />
+      <stop offset="100%" stop-color="#E5DDD0" />
+    </linearGradient>
+    <pattern id="loofahFibers" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M0 12 Q12 4 24 12 Q12 20 0 12" fill="none" stroke="#A68B67" stroke-width="1.5" stroke-opacity="0.45" />
+    </pattern>
+  </defs>
+
+  <!-- Archival Monograph Plate Background -->
+  <rect width="900" height="1200" fill="url(#archivalPaper)" />
+  <rect x="44" y="44" width="812" height="1112" fill="none" stroke="#1C1917" stroke-opacity="0.18" stroke-width="1.5" />
+
+  <!-- Plate Header -->
+  <text x="84" y="96" font-family="monospace" font-size="13" fill="#57534E" letter-spacing="2">PLATE IV · ANATOMI MATERIAL BIODEGRADABLE</text>
+  <line x1="84" y1="116" x2="816" y2="116" stroke="#1C1917" stroke-opacity="0.15" stroke-width="1" />
+
+  <!-- Specimen 01: Natural Dried Loofah Sponge -->
+  <g transform="translate(130, 190)">
+    <rect x="0" y="0" width="250" height="410" rx="95" fill="#DFD3BE" stroke="#B59E7A" stroke-width="2.5" />
+    <rect x="0" y="0" width="250" height="410" rx="95" fill="url(#loofahFibers)" />
+    <ellipse cx="125" cy="65" rx="68" ry="26" fill="#C7B293" />
+    <circle cx="125" cy="65" r="18" fill="#8C7355" />
+    <text x="0" y="455" font-family="Georgia, serif" font-size="19" fill="#1C1917" font-weight="bold">Fig. 1 — Serat Oyong (Luffa aegyptiaca)</text>
+    <text x="0" y="480" font-family="monospace" font-size="12" fill="#14532D">DEKOMPOSISI: 30 HARI DI KOMPOS RUMAH</text>
+  </g>
+
+  <!-- Specimen 02: Untreated Bamboo & Sisal Brush -->
+  <g transform="translate(500, 180)">
+    <rect x="95" y="0" width="46" height="420" rx="22" fill="#C49A6C" stroke="#8C643B" stroke-width="2" />
+    <ellipse cx="118" cy="95" rx="58" ry="78" fill="#E8DFCA" stroke="#B59E7A" stroke-width="2" />
+    <ellipse cx="118" cy="95" rx="34" ry="52" fill="#A68B67" />
+    <circle cx="118" cy="385" r="9" fill="#F5F0E6" stroke="#8C643B" stroke-width="2" />
+    <text x="0" y="465" font-family="Georgia, serif" font-size="19" fill="#1C1917" font-weight="bold">Fig. 2 — Bambu &amp; Serat Agave Sisal</text>
+    <text x="0" y="490" font-family="monospace" font-size="12" fill="#14532D">DEKOMPOSISI: 4–6 BULAN · TANPA MIKROPLASTIK</text>
+  </g>
+
+  <!-- Horizontal Divider -->
+  <line x1="84" y1="730" x2="816" y2="730" stroke="#1C1917" stroke-opacity="0.15" stroke-width="1" />
+
+  <!-- Specimen 03: Travertine Stone & Cold-Pressed Olive Soap Block -->
+  <g transform="translate(130, 790)">
+    <!-- Travertine Slab -->
+    <rect x="0" y="130" width="640" height="80" rx="8" fill="#D5CBB8" stroke="#A89C87" stroke-width="2" />
+    <!-- Olive Oil Soap Block -->
+    <rect x="80" y="20" width="220" height="110" rx="10" fill="#EAE4D3" stroke="#C5BCA6" stroke-width="2" />
+    <text x="190" y="82" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#57534E" letter-spacing="2">SAPO OLEA · 180G</text>
+    <!-- Stainless Steel Safety Razor (Lifetime Reuse) -->
+    <rect x="440" y="0" width="90" height="24" rx="6" fill="#78716C" />
+    <rect x="477" y="24" width="16" height="106" rx="4" fill="#A8A29E" />
+    <text x="0" y="255" font-family="Georgia, serif" font-size="19" fill="#1C1917" font-weight="bold">Fig. 3 — Sabun Padat &amp; Baja Tahan Karat Seumur Hidup</text>
+    <text x="0" y="280" font-family="monospace" font-size="12" fill="#9A3412">MENGGANTIKAN 24 BOTOL PLASTIK HDPE &amp; 50 PISAU CUKUR SEKALI PAKAI / TAHUN</text>
+  </g>
+</svg>

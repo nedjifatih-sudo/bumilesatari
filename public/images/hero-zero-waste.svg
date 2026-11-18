@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="wallGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6F2EA" />
+      <stop offset="55%" stop-color="#EAE3D5" />
+      <stop offset="100%" stop-color="#DCD2C0" />
+    </linearGradient>
+    <linearGradient id="sunBeam" x1="0%" y1="0%" x2="100%" y2="85%">
+      <stop offset="0%" stop-color="#FFFDF8" stop-opacity="0.78" />
+      <stop offset="55%" stop-color="#F7EFE0" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#D8CEBE" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="tableWood" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C8B499" />
+      <stop offset="30%" stop-color="#B39B7D" />
+      <stop offset="100%" stop-color="#8A7256" />
+    </linearGradient>
+    <linearGradient id="amberGlass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D97706" stop-opacity="0.88" />
+      <stop offset="50%" stop-color="#B45309" stop-opacity="0.92" />
+      <stop offset="100%" stop-color="#78350F" stop-opacity="0.96" />
+    </linearGradient>
+    <linearGradient id="clearGlass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.65" />
+      <stop offset="50%" stop-color="#E6ECE8" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#C7D3CC" stop-opacity="0.55" />
+    </linearGradient>
+    <linearGradient id="terracotta" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C25E3A" />
+      <stop offset="60%" stop-color="#9A3412" />
+      <stop offset="100%" stop-color="#7C2D12" />
+    </linearGradient>
+    <linearGradient id="foliage" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#23633D" />
+      <stop offset="60%" stop-color="#14532D" />
+      <stop offset="100%" stop-color="#0B331B" />
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="16" dy="22" stdDeviation="18" flood-color="#1C1917" flood-opacity="0.16" />
+    </filter>
+  </defs>
+
+  <!-- Warm Limewash Architectural Backdrop -->
+  <rect width="1600" height="900" fill="url(#wallGrad)" />
+
+  <!-- Architectural Grid & Golden Hour Window Shadow -->
+  <polygon points="0,0 1050,0 1600,620 1600,900 320,900" fill="url(#sunBeam)" />
+  <g stroke="#1C1917" stroke-opacity="0.06" stroke-width="1.5">
+    <line x1="220" y1="0" x2="220" y2="900" />
+    <line x1="780" y1="0" x2="780" y2="900" />
+    <line x1="1340" y1="0" x2="1340" y2="900" />
+    <line x1="0" y1="260" x2="1600" y2="260" />
+  </g>
+
+  <!-- Diagonal Window Mullion Shadows -->
+  <polygon points="880,0 940,0 1560,680 1500,680" fill="#1C1917" fill-opacity="0.045" />
+  <polygon points="520,0 575,0 1195,680 1140,680" fill="#1C1917" fill-opacity="0.045" />
+
+  <!-- Upper Floating Timber Shelf -->
+  <g filter="url(#softShadow)">
+    <rect x="160" y="235" width="760" height="26" rx="4" fill="url(#tableWood)" />
+    <rect x="240" y="261" width="16" height="44" fill="#574737" />
+    <rect x="810" y="261" width="16" height="44" fill="#574737" />
+  </g>
+
+  <!-- Shelf Bulk Jars (Seeds, Oats, Lentils) -->
+  <g filter="url(#softShadow)">
+    <!-- Jar 1: Rolled Oats -->
+    <rect x="230" y="105" width="96" height="130" rx="18" fill="url(#clearGlass)" stroke="#FFFFFF" stroke-width="2" />
+    <rect x="236" y="145" width="84" height="84" rx="12" fill="#D8C6A8" />
+    <rect x="244" y="88" width="68" height="19" rx="4" fill="#8C6D4F" />
+    <rect x="248" y="162" width="60" height="28" rx="2" fill="#FBF9F5" />
+    <line x1="258" y1="173" x2="298" y2="173" stroke="#1C1917" stroke-width="2" />
+    <line x1="263" y1="181" x2="293" y2="181" stroke="#78716C" stroke-width="1.5" />
+
+    <!-- Jar 2: Red Lentils -->
+    <rect x="355" y="120" width="88" height="115" rx="16" fill="url(#clearGlass)" stroke="#FFFFFF" stroke-width="2" />
+    <rect x="361" y="160" width="76" height="69" rx="10" fill="#C86D44" />
+    <rect x="369" y="104" width="60" height="18" rx="4" fill="#8C6D4F" />
+    <rect x="372" y="172" width="54" height="24" rx="2" fill="#FBF9F5" />
+    <line x1="382" y1="184" x2="416" y2="184" stroke="#1C1917" stroke-width="2" />
+
+    <!-- Jar 3: Black Rice -->
+    <rect x="470" y="92" width="104" height="143" rx="20" fill="url(#clearGlass)" stroke="#FFFFFF" stroke-width="2" />
+    <rect x="476" y="135" width="92" height="94" rx="14" fill="#3B332E" />
+    <rect x="486" y="74" width="72" height="20" rx="4" fill="#8C6D4F" />
+    <rect x="492" y="156" width="60" height="28" rx="2" fill="#FBF9F5" />
+    <line x1="502" y1="170" x2="542" y2="170" stroke="#1C1917" stroke-width="2" />
+
+    <!-- Stacked Ceramic Bowls -->
+    <path d="M630 198 Q690 242 750 198 L738 235 L642 235 Z" fill="#EAE4DC" stroke="#D5CCC0" stroke-width="1.5" />
+    <path d="M636 172 Q690 214 744 172 L734 202 L646 202 Z" fill="#F5F2EB" stroke="#D5CCC0" stroke-width="1.5" />
+  </g>
+
+  <!-- Foreground Travertine & Oak Countertop -->
+  <rect x="0" y="650" width="1600" height="250" fill="#DFD7C9" />
+  <rect x="0" y="650" width="1600" height="18" fill="#EFEAE1" />
+  <line x1="0" y1="668" x2="1600" y2="668" stroke="#C4B9A5" stroke-width="2" />
+
+  <!-- Hero Apothecary Amber Refill Dispenser Bottle (Center-Left Focal) -->
+  <g filter="url(#softShadow)">
+    <path d="M510 350 L560 350 L568 395 L625 435 L625 650 L445 650 L445 435 L502 395 Z" fill="url(#amberGlass)" />
+    <!-- Glass Highlight Reflection -->
+    <path d="M465 445 L485 445 L485 630 L465 630 Z" fill="#FFFBEB" fill-opacity="0.24" rx="8" />
+    <!-- Stainless Steel Pump -->
+    <rect x="516" y="324" width="38" height="28" rx="4" fill="#292524" />
+    <rect x="528" y="294" width="14" height="30" fill="#A8A29E" />
+    <path d="M525 294 L585 294 Q598 294 602 308 L592 312 Q586 304 576 304 L525 304 Z" fill="#D6D3D1" />
+    <!-- Archival Waterproof Label -->
+    <rect x="472" y="485" width="126" height="115" rx="3" fill="#FBF9F5" />
+    <rect x="478" y="491" width="114" height="103" fill="none" stroke="#1C1917" stroke-opacity="0.25" stroke-width="1" />
+    <text x="535" y="516" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#1C1917" font-weight="bold">SABUN CASTILE</text>
+    <text x="535" y="534" text-anchor="middle" font-family="monospace" font-size="9" fill="#57534E">ISI ULANG · 1000 ML</text>
+    <line x1="495" y1="548" x2="575" y2="548" stroke="#D6CEBE" stroke-width="1" />
+    <text x="535" y="566" text-anchor="middle" font-family="monospace" font-size="8.5" fill="#14532D">100% BIODEGRADABLE</text>
+    <text x="535" y="582" text-anchor="middle" font-family="monospace" font-size="8" fill="#78716C">BATCH NO. LL-042</text>
+  </g>
+
+  <!-- Handwoven Bamboo & Rattan Market Basket (Left) -->
+  <g filter="url(#softShadow)">
+    <path d="M155 495 L385 495 L360 650 L180 650 Z" fill="#C9A679" />
+    <!-- Weave Texture -->
+    <g stroke="#8C683E" stroke-width="2" stroke-opacity="0.45">
+      <line x1="165" y1="525" x2="375" y2="525" />
+      <line x1="170" y1="555" x2="370" y2="555" />
+      <line x1="174" y1="585" x2="366" y2="585" />
+      <line x1="178" y1="615" x2="362" y2="615" />
+      <line x1="210" y1="495" x2="220" y2="650" />
+      <line x1="250" y1="495" x2="255" y2="650" />
+      <line x1="290" y1="495" x2="285" y2="650" />
+      <line x1="330" y1="495" x2="320" y2="650" />
+    </g>
+    <!-- Unbleached Linen Cloth Draping Out -->
+    <path d="M148 495 Q210 475 265 505 Q310 530 392 492 L378 548 Q310 568 255 538 Q195 512 162 540 Z" fill="#F4EFE6" />
+    <!-- Bamboo Rim -->
+    <rect x="148" y="485" width="244" height="16" rx="8" fill="#B38B59" />
+  </g>
+
+  <!-- Reusable Solid Beechwood Dish Brush & Olive Soap Block (Center) -->
+  <g filter="url(#softShadow)">
+    <!-- Travertine Soap Dish -->
+    <rect x="665" y="618" width="165" height="32" rx="6" fill="#E7E0D3" stroke="#C7BDAI" stroke-width="1.5" />
+    <!-- Cold-Pressed Soap Block -->
+    <rect x="692" y="572" width="110" height="46" rx="6" fill="#DFD9C8" />
+    <path d="M692 592 Q747 582 802 592 L802 618 L692 618 Z" fill="#CFC7B2" />
+    <!-- Wooden Brush Leaning -->
+    <g transform="translate(835, 515) rotate(24)">
+      <rect x="0" y="0" width="22" height="135" rx="10" fill="#B68F66" />
+      <rect x="-12" y="110" width="46" height="18" rx="4" fill="#9E764E" />
+      <rect x="-10" y="128" width="42" height="28" fill="#E6DEC8" />
+    </g>
+  </g>
+
+  <!-- Terracotta Planter & Lush Tropical Monstera / Ficus Foliage (Right) -->
+  <g filter="url(#softShadow)">
+    <!-- Botanical Leaves -->
+    <path d="M1155 420 C1060 330, 1020 190, 1110 120 C1190 170, 1215 290, 1155 420 Z" fill="url(#foliage)" />
+    <path d="M1185 430 C1230 280, 1350 185, 1455 215 C1420 340, 1300 415, 1185 430 Z" fill="#1B4D2E" />
+    <path d="M1140 445 C1000 410, 935 310, 965 235 C1055 245, 1125 340, 1140 445 Z" fill="#2A6B45" />
+    <path d="M1195 450 C1310 390, 1420 415, 1465 495 C1365 535, 1255 505, 1195 450 Z" fill="#14532D" />
+    <!-- Leaf Veins -->
+    <line x1="1155" y1="420" x2="1115" y2="145" stroke="#528C67" stroke-width="2" stroke-opacity="0.55" />
+    <line x1="1185" y1="430" x2="1420" y2="230" stroke="#528C67" stroke-width="2" stroke-opacity="0.55" />
+    <line x1="1140" y1="445" x2="985" y2="255" stroke="#65A17B" stroke-width="2" stroke-opacity="0.55" />
+
+    <!-- Terracotta Vessel -->
+    <path d="M1045 420 L1295 420 L1255 650 L1085 650 Z" fill="url(#terracotta)" />
+    <rect x="1032" y="396" width="276" height="28" rx="6" fill="#B54D28" />
+    <!-- Subtle Ceramic Ribbing -->
+    <line x1="1062" y1="485" x2="1278" y2="485" stroke="#7C2D12" stroke-opacity="0.35" stroke-width="2" />
+    <line x1="1072" y1="550" x2="1268" y2="550" stroke="#7C2D12" stroke-opacity="0.35" stroke-width="2" />
+  </g>
+
+  <!-- Editorial Technical Callout Markers -->
+  <g font-family="monospace" font-size="11" fill="#44403C">
+    <circle cx="535" cy="425" r="4" fill="#14532D" />
+    <line x1="535" y1="425" x2="645" y2="365" stroke="#14532D" stroke-width="1.2" stroke-dasharray="3 3" />
+    <rect x="645" y="346" width="215" height="28" rx="3" fill="#FBF9F5" fill-opacity="0.9" stroke="#D6CEBE" />
+    <text x="657" y="364" fill="#1C1917">01 · KACA AMBER GUNA ULANG</text>
+
+    <circle cx="270" cy="560" r="4" fill="#14532D" />
+    <line x1="270" y1="560" x2="185" y2="435" stroke="#14532D" stroke-width="1.2" stroke-dasharray="3 3" />
+    <rect x="85" y="407" width="215" height="28" rx="3" fill="#FBF9F5" fill-opacity="0.9" stroke="#D6CEBE" />
+    <text x="97" y="425" fill="#1C1917">02 · SERAT BAMBU &amp; LINEN</text>
+
+    <circle cx="1170" cy="520" r="4" fill="#14532D" />
+    <line x1="1170" y1="520" x2="1285" y2="585" stroke="#14532D" stroke-width="1.2" stroke-dasharray="3 3" />
+    <rect x="1285" y="570" width="235" height="28" rx="3" fill="#FBF9F5" fill-opacity="0.9" stroke="#D6CEBE" />
+    <text x="1297" y="588" fill="#1C1917">03 · SIKLUS ORGANIK RUMAH</text>
+  </g>
+</svg>

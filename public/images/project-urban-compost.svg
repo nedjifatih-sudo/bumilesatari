@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <defs>
+    <linearGradient id="bgCompost" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#232B24" />
+      <stop offset="100%" stop-color="#131814" />
+    </linearGradient>
+    <linearGradient id="terraPot" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C8643E" />
+      <stop offset="55%" stop-color="#9A3412" />
+      <stop offset="100%" stop-color="#6E230B" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#bgCompost)" />
+
+  <!-- Cross-Section Diagram Grid -->
+  <g stroke="#F4F1EA" stroke-opacity="0.07" stroke-width="1">
+    <line x1="100" y1="0" x2="100" y2="900" />
+    <line x1="600" y1="0" x2="600" y2="900" />
+    <line x1="1100" y1="0" x2="1100" y2="900" />
+    <line x1="0" y1="150" x2="1200" y2="150" />
+    <line x1="0" y1="750" x2="1200" y2="750" />
+  </g>
+
+  <!-- Modular 3-Tier Terracotta Composter Vessel -->
+  <g transform="translate(320, 150)">
+    <!-- Cedarwood Lid -->
+    <rect x="60" y="20" width="440" height="36" rx="10" fill="#B5895A" />
+    <rect x="235" y="0" width="90" height="20" rx="6" fill="#8C643B" />
+
+    <!-- Top Tier: Fresh Kitchen Scraps & Greens -->
+    <path d="M50 56 L510 56 L490 220 L70 220 Z" fill="url(#terraPot)" />
+    <rect x="85" y="80" width="390" height="120" rx="8" fill="#234E2E" />
+    <text x="280" y="135" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#E7E5E4">LAPISAN 01 · SISA DAPUR HIJAU</text>
+    <text x="280" y="162" text-anchor="middle" font-family="monospace" font-size="13" fill="#86EFAC">NITROGEN TINGGI · KELEMBAPAN 60%</text>
+
+    <!-- Middle Tier: Dry Leaves & Cardboard Carbon Layer -->
+    <path d="M60 228 L500 228 L480 392 L80 392 Z" fill="url(#terraPot)" />
+    <rect x="95" y="252" width="370" height="120" rx="8" fill="#5C4028" />
+    <text x="280" y="307" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#E7E5E4">LAPISAN 02 · SERESAH DAUN KERING</text>
+    <text x="280" y="334" text-anchor="middle" font-family="monospace" font-size="13" fill="#FDE68A">KARBON SEIMBANG · AERASI MIKROBA</text>
+
+    <!-- Bottom Tier: Mature Dark Humus & Leachate Tap -->
+    <path d="M70 400 L490 400 L465 565 L95 565 Z" fill="url(#terraPot)" />
+    <rect x="108" y="424" width="344" height="120" rx="8" fill="#261E1B" />
+    <text x="280" y="479" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#E7E5E4">LAPISAN 03 · HUMUS MATANG</text>
+    <text x="280" y="506" text-anchor="middle" font-family="monospace" font-size="13" fill="#D6CEBE">PANEN 45 HARI · PUPUK CAIR</text>
+
+    <!-- Brass Spigot for Liquid Fertilizer -->
+    <rect x="470" y="510" width="42" height="14" rx="4" fill="#D97706" />
+    <circle cx="495" cy="502" r="8" fill="#F59E0B" />
+
+    <!-- Cedar Base Stand -->
+    <rect x="85" y="565" width="390" height="24" rx="6" fill="#8C643B" />
+    <rect x="115" y="589" width="28" height="45" fill="#6E4B26" />
+    <rect x="417" y="589" width="28" height="45" fill="#6E4B26" />
+  </g>
+</svg>

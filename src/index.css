@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Fraunces', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    background-color: #FBF9F5;
+    color: #1C1917;
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, .font-serif-display {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  .font-mono-tabular {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom editorial drop cap */
+.editorial-dropcap::first-letter {
+  font-family: var(--font-display);
+  font-size: 3.35rem;
+  line-height: 0.88;
+  float: left;
+  padding-top: 0.15rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.1rem;
+  color: #14532D;
+  font-weight: 600;
+}
+
+/* Settling curves & reduced motion discipline */
+.transition-editorial {
+  transition-property: transform, opacity, background-color, border-color, color;
+  transition-duration: 180ms;
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Official @n8n/chat Theme Customization for Lingkar Lestari */
+:root {
+  --chat--color--primary: #14532D;
+  --chat--color--primary-shade-50: #0F3F22;
+  --chat--color--primary--shade-100: #0B2E19;
+  --chat--color--secondary: #14532D;
+  --chat--color-secondary-shade-50: #0F3F22;
+  --chat--color-white: #FBF9F5;
+  --chat--color-light: #FBF9F5;
+  --chat--color-light-shade-50: #EBE6DF;
+  --chat--color-light-shade-100: #D6CEBE;
+  --chat--color-medium: #A8A29E;
+  --chat--color-dark: #1C1917;
+  --chat--color-disabled: #A8A29E;
+  --chat--color-typing: #14532D;
+  --chat--spacing: 1rem;
+  --chat--border-radius: 0.25rem;
+  --chat--transition-duration: 0.18s;
+  --chat--font-family: var(--font-sans);
+  --chat--font-family--monospace: var(--font-mono);
+  --chat--window--width: 400px;
+  --chat--window--height: 580px;
+  --chat--window--border: 1px solid #D6CEBE;
+  --chat--header--background: #111613;
+  --chat--header--color: #F4F1EA;
+  --chat--header--padding: 1rem 1.25rem;
+  --chat--heading--font-size: 1.2rem;
+  --chat--subtitle--font-size: 0.8rem;
+  --chat--subtitle--line-height: 1.45;
+  --chat--message--font-size: 0.875rem;
+  --chat--message--padding: 0.85rem 1rem;
+  --chat--message--bot--background: #F4F0E8;
+  --chat--message--bot--color: #1C1917;
+  --chat--message--bot--border: 1px solid #D6CEBE;
+  --chat--message--user--background: #14532D;
+  --chat--message--user--color: #FBF9F5;
+  --chat--toggle--size: 56px;
+  --chat--toggle--background: #14532D;
+  --chat--toggle--hover--background: #0F3F22;
+  --chat--toggle--active--background: #0B2E19;
+  --chat--toggle--color: #FBF9F5;
+  --chat--body--background: #FBF9F5;
+  --chat--footer--background: #F4F0E8;
+  --chat--footer--color: #1C1917;
+  --chat--footer--border-top: 1px solid #D6CEBE;
+  --chat--input--background: #FFFFFF;
+  --chat--input--text-color: #1C1917;
+  --chat--input--padding: 0.85rem 1rem;
+  --chat--input--container--background: #FFFFFF;
+  --chat--input--container--border: 1px solid #D6CEBE;
+  --chat--input--container--padding: 0.25rem 0.5rem;
+  --chat--input--send--button--background: #14532D;
+  --chat--input--send--button--color: #FBF9F5;
+  --chat--input--send--button--background-hover: #0F3F22;
+  --chat--input--send--button--color-hover: #FFFFFF;
+}
+
+.n8n-chat .chat-header h1 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.n8n-chat .chat-footer {
+  padding: 0.65rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+

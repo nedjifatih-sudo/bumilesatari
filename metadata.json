@@ -1,0 +1,6 @@
+{
+  "name": "Lingkar Lestari — Edukasi Keberlanjutan & Hidup Minim Sampah",
+  "description": "Monograf digital interaktif untuk praktik hidup minim sampah (zero-waste lifestyle), atlas siklus material, studi kasus sirkular komunitas, dan kalkulator audit residu rumah tangga.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
